@@ -27,6 +27,11 @@ INSERT INTO piezas (nombre) VALUES
 	('Caja cambios'), 
 	('Disco freno'), 
 	('Bujia'), 
+	('Luz delantera'), 
+	('Luz trasera'), 
+	('Intermitente'), 
+	('Pneumatico'), 
+	('Retrovisor'), 
 	('Escape');
 
 INSERT INTO proveedores VALUES 
@@ -34,12 +39,23 @@ INSERT INTO proveedores VALUES
 	('hond','Honda'), 
 	('duca','Ducati'), 
 	('apri','Aprilia'), 
-	('kawa','Kawasaki');
+	('kawa','Kawasaki'),
+	('bmw','BMW'),
+	('audi','Audi'),
+	('opel','Opel'),
+	('ford','Ford'),
+	('chev','Chevrolet');
+	
 
 INSERT INTO suministra VALUES 
 	(1, 'yama', 1250),
 	(2, 'duca', 750),
-    (3, 'hond', 150),
-    (4, 'kawa', 35),
-    (5, 'apri', 980),
-    (2, 'hond', 850);
+    	(3, 'hond', 150),
+    	(4, 'kawa', 35),
+    	(5, 'apri', 980),
+    	(7, 'opel', 1980),
+	(8, 'ford', 950),
+	(9, 'ford', 70),
+	(9, 'bmw', 85),
+	(6, 'hond', 430);
+	
